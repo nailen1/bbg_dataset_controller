@@ -15,7 +15,7 @@ def compose_df_name_sector_of_bbg_index(ticker_bbg_index):
     map_df_to_csv(df=name_sector, file_folder=file_folder['market'], file_name=file_name, include_index=True)
     return name_sector
 
-def compose_df_ks_name_sector_of_bbg_index():
+def compose_df_ks_name_sector():
     df_kospi = open_df_name_sector_of_bbg_index(ticker_bbg_index='KOSPI Index')
     df_kosdaq = open_df_name_sector_of_bbg_index(ticker_bbg_index='KOSDAQ Index')
     df_ks = pd.concat([df_kospi, df_kosdaq])
