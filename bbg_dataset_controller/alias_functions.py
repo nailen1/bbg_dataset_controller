@@ -1,0 +1,4 @@
+from .bbg_dataset_loader import open_df_name_of_bbg_index, open_df_sector_of_bbg_index
+
+load_names_of_bbg_index = open_df_name_of_bbg_index
+load_sectors_of_bbg_index = open_df_sector_of_bbg_index
